@@ -16,6 +16,7 @@ function App() {
 
   return (
     <View style={{flex:1, alignItems:'center', justifyContent:'center', backgroundColor:'#8FBDD3' }}>
+      <Text style={{fontSize:26}}>React Native ~ useEffect{'\n'}</Text>
       <Button color="#BE8C63" title="Click Me" onPress={() => setCount(count + 1)}/>
       <Text>{'\n'}</Text>
       <Button color="#A97155" title="Click Me" onPress={() => setCount2(count2 + 1)} />
